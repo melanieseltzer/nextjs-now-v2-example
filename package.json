@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-now-v2-example",
+  "version": "1.0.0",
+  "description": "Quick example to get a Next.js project up and running on Now v2.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now && now alias && now rm nextjs-now-v2-example --safe --yes",
+    "now-build": "next build"
+  },
+  "author": "Melanie Seltzer <melleh11@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.0.0-canary.3",
+    "next-compose-plugins": "^2.1.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}

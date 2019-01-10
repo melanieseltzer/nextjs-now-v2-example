@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "nextjs-now-v2-example",
+  "alias": [
+    "nextjs-now-v2-example"
+  ],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ]
+}
